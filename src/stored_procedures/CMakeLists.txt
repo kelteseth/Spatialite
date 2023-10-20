@@ -1,0 +1,5 @@
+
+set(STORED_PROCEDURES_SOURCES stored_procedures.c)
+
+add_library(libstored_procedures STATIC ${STORED_PROCEDURES_SOURCES})
+target_link_libraries(libstored_procedures PRIVATE libSpatialiteHeader)

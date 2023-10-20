@@ -1723,9 +1723,9 @@ initialize_epsg_25 (int filter, struct epsg_defs **first, struct epsg_defs **las
     add_srs_wkt (p, 8,
         "NGTHUNIT[\"metre\",1]],USAGE[SCOPE[\"Geodesy.\"],AREA[\"");
     add_srs_wkt (p, 9,
-        "Antarctica - Ross Sea Region - nominally between 160°E ");
+        "Antarctica - Ross Sea Region - nominally between 160Â°E ");
     add_srs_wkt (p, 10,
-        "and 150°W but includes buffer on eastern hemisphere mar");
+        "and 150Â°W but includes buffer on eastern hemisphere mar");
     add_srs_wkt (p, 11,
         "gin to include Transantarctic Mountains\"],BBOX[-90,144.");
     add_srs_wkt (p, 12,
@@ -2308,9 +2308,9 @@ initialize_epsg_25 (int filter, struct epsg_defs **first, struct epsg_defs **las
     add_srs_wkt (p, 8,
         "R[3],LENGTHUNIT[\"metre\",1]],USAGE[SCOPE[\"Geodesy.\"],");
     add_srs_wkt (p, 9,
-        "AREA[\"Antarctica between 45°E and 136°E and between 1");
+        "AREA[\"Antarctica between 45Â°E and 136Â°E and between 1");
     add_srs_wkt (p, 10,
-        "42°E and 160°E - Australian sector.\"],BBOX[-90,45,-60");
+        "42Â°E and 160Â°E - Australian sector.\"],BBOX[-90,45,-60");
     add_srs_wkt (p, 11,
         ",160]],ID[\"EPSG\",4931]]");
     p = add_epsg_def_ex (filter, first, last, 4933, "epsg", 4933,
@@ -3051,7 +3051,7 @@ initialize_epsg_25 (int filter, struct epsg_defs **first, struct epsg_defs **las
     add_srs_wkt (p, 11,
         ", Les Saintes, Iles de la Petite Terre, La Desirade); Ma");
     add_srs_wkt (p, 12,
-        "rtinique; St Barthélemy; St Martin.\"],BBOX[14.08,-63.6");
+        "rtinique; St BarthÃ©lemy; St Martin.\"],BBOX[14.08,-63.6");
     add_srs_wkt (p, 13,
         "6,18.53,-57.52]],ID[\"EPSG\",4973]]");
     p = add_epsg_def_ex (filter, first, last, 4975, "epsg", 4975,
@@ -3180,9 +3180,9 @@ initialize_epsg_25 (int filter, struct epsg_defs **first, struct epsg_defs **las
     add_srs_wkt (p, 26,
         "lic, Chad, Chile, China, Christmas Island, Cocos (Keelin");
     add_srs_wkt (p, 27,
-        "g) Islands, Comoros, Congo, Cook Islands, Costa Rica, C�");
+        "g) Islands, Comoros, Congo, Cook Islands, Costa Rica, CÃ");
     add_srs_wkt (p, 28,
-        "�te d'Ivoire (Ivory Coast), Croatia, Cuba, Curacao, Cypr");
+        "´te d'Ivoire (Ivory Coast), Croatia, Cuba, Curacao, Cypr");
     add_srs_wkt (p, 29,
         "us, Czechia, Denmark, Djibouti, Dominica, Dominican Repu");
     add_srs_wkt (p, 30,

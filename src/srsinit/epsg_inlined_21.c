@@ -619,9 +619,9 @@ initialize_epsg_21 (int filter, struct epsg_defs **first, struct epsg_defs **las
     add_srs_wkt (p, 27,
         "lic, Chad, Chile, China, Christmas Island, Cocos (Keelin");
     add_srs_wkt (p, 28,
-        "g) Islands, Comoros, Congo, Cook Islands, Costa Rica, C�");
+        "g) Islands, Comoros, Congo, Cook Islands, Costa Rica, CÃ");
     add_srs_wkt (p, 29,
-        "�te d'Ivoire (Ivory Coast), Croatia, Cuba, Curacao, Cypr");
+        "´te d'Ivoire (Ivory Coast), Croatia, Cuba, Curacao, Cypr");
     add_srs_wkt (p, 30,
         "us, Czechia, Denmark, Djibouti, Dominica, Dominican Repu");
     add_srs_wkt (p, 31,
@@ -744,9 +744,9 @@ initialize_epsg_21 (int filter, struct epsg_defs **first, struct epsg_defs **las
     add_srs_wkt (p, 9,
         "R[3],LENGTHUNIT[\"metre\",1]],USAGE[SCOPE[\"Geodesy.\"],");
     add_srs_wkt (p, 10,
-        "AREA[\"Antarctica between 45°E and 136°E and between 1");
+        "AREA[\"Antarctica between 45Â°E and 136Â°E and between 1");
     add_srs_wkt (p, 11,
-        "42°E and 160°E - Australian sector.\"],BBOX[-90,45,-60");
+        "42Â°E and 160Â°E - Australian sector.\"],BBOX[-90,45,-60");
     add_srs_wkt (p, 12,
         ",160]],ID[\"EPSG\",4339]]");
     p = add_epsg_def_ex (filter, first, last, 4341, "epsg", 4341,
@@ -1116,7 +1116,7 @@ initialize_epsg_21 (int filter, struct epsg_defs **first, struct epsg_defs **las
     add_srs_wkt (p, 9,
         "[3],LENGTHUNIT[\"metre\",1]],USAGE[SCOPE[\"Geodesy.\"],A");
     add_srs_wkt (p, 10,
-        "REA[\"Canada south of 60°N - Alberta, British Columbia ");
+        "REA[\"Canada south of 60Â°N - Alberta, British Columbia ");
     add_srs_wkt (p, 11,
         "(BC), Manitoba, New Brunswick (NB), Newfoundland and Lab");
     add_srs_wkt (p, 12,
@@ -1562,7 +1562,7 @@ initialize_epsg_21 (int filter, struct epsg_defs **first, struct epsg_defs **las
     add_srs_wkt (p, 12,
         ", Les Saintes, Iles de la Petite Terre, La Desirade); Ma");
     add_srs_wkt (p, 13,
-        "rtinique; St Barthélemy; St Martin.\"],BBOX[14.08,-63.6");
+        "rtinique; St BarthÃ©lemy; St Martin.\"],BBOX[14.08,-63.6");
     add_srs_wkt (p, 14,
         "6,18.53,-57.52]],ID[\"EPSG\",4383]]");
     p = add_epsg_def_ex (filter, first, last, 4386, "epsg", 4386,
